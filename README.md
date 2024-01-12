@@ -13,8 +13,8 @@ zwraca wszystkie elementy wykonane z danego materiału,
 ```
 zwraca liczbę elementów tworzących strukturę.
 ## Opis rozwiązania
-W rozwiązaniu posłużono się wzorcem projektowym kompozyt. Interfejsem komponentu jest Block, kompozytem CompositeBlock, a klientem klasa Wall. Klasa Wall posiada jedno pole - List/<Block> blocks.
-Założono, że w tej liście mogą się znajdować zagnieżdżone CompositeBlocki, przykładową strukturę przedstawiono w poniższym punkcie. Rozwiązanie opiera się o metodę
+W rozwiązaniu posłużono się wzorcem projektowym kompozyt. Interfejsem komponentu jest Block, kompozytem CompositeBlock, a klientem klasa Wall. Klasa Wall posiada jedno pole - blocks, będące listą obiektów Block.
+Założono, że w tej liście mogą się znajdować zagnieżdżone CompositeBlocki, które rozszerzają interfejs Block, więc mogą przyjmować jego postać. Przykładową strukturę przedstawiono w poniższym punkcie. Rozwiązanie opiera się o metodę
 ```bash
 private List<Block> getAllBlocks(List<Block> blocks)
 ```
