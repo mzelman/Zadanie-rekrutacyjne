@@ -1,18 +1,10 @@
 # Zadanie-rekrutacyjne
 Celem zadania jest napisanie trzech funkcji:
 ```bash
-    // zwraca dowolny element o podanym kolorze
     Optional<Block> findBlockByColor(String color);
-
-    // zwraca wszystkie elementy z danego materiału
-    List<Block> findBlocksByMaterial(String material);
-
-    // zwraca liczbę wszystkich elementów tworzących strukturę
-    int count();
 ```
 zwraca dowolny element o zadanym kolorze,
 ```bash
-// zwraca wszystkie elementy z danego materiału
     List<Block> findBlocksByMaterial(String material);
 ```
 ```bash
