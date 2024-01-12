@@ -7,6 +7,7 @@ zwraca dowolny element o zadanym kolorze,
 ```bash
     List<Block> findBlocksByMaterial(String material);
 ```
+zwraca wszystkie elementy wykonane z danego materiału,
 ```bash
     int count();
 ```
